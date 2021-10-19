@@ -1,0 +1,55 @@
+.body-services{
+    background: #000000;
+    padding-top: 40px;
+    color: #fff;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.body-services img{
+    width: 35%;
+
+}
+
+.body-services img[data-src]{
+   opacity:0;
+   transform: scale(0);
+}
+.body-services img[src]{
+    opacity:1;
+    transition: 0.3s all ease-in;
+    transform: scale(1);
+}
+.services{
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-services h1{
+    font-size:30px;
+    font-weight: bold;
+    color:#D5692B;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.list-item-service{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.item-services{
+    display:flex;
+    gap: 5px;
+    align-items: center;
+    width: 100%;
+}
+.linha-item{
+    width: 100%;
+    height: 3px;
+    background:#D5692B;
+}

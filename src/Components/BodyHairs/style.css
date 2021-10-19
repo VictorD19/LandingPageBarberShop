@@ -1,0 +1,32 @@
+.body-hairs{
+    position: relative;
+    color: #fff;
+    background: #000000;
+    padding: 50px;
+}
+.body-hairs h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #D5692B;
+    margin-bottom: 20px;
+}
+.list-hairs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.list-hairs img{
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    transform: scale(0.95);
+    transition: 1s all ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.list-hairs  img:hover{
+    width: 300px;
+    height: 300px;
+    transform: scale(1);
+
+}

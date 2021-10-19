@@ -1,0 +1,21 @@
+.body-medium{
+    margin-top: 112px;
+    background: url('https://media.gettyimages.com/videos/loopable-sparkling-yellow-star-particles-background-4k-video-id836274656?s=640x640');
+    color:#fff;
+    padding: 40px 50px 20px 80px;
+}
+.body-medium>h1{
+    font-size: 40px;
+    color:#D5692B;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.body-medium p{
+    line-height: normal;
+   width:80%;
+}
+.card-medium{
+    margin: 50px 0;
+    justify-content: center;
+    display:flex;
+}

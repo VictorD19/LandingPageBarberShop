@@ -1,0 +1,55 @@
+.body-recommendations{
+    position: relative;
+    padding-top: 40px;
+
+}
+.body-recommendations h1{
+    font-size:40px;
+    position: relative;
+    color: #D5692B;
+    z-index: 4;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.body-recommendations>img{
+   position: absolute;
+   top: 0;
+   width:100%;
+   height: 157vh;
+   filter: brightness(10%);
+   left: 0;
+   right: 0;
+}
+.list-recommendations{
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.card-recommendations{
+    position: relative;
+    width: 400px;
+    border-radius: 10px;
+    height: 420px;
+    background: #1d1d1d;
+    color: #fff;
+}
+.card-recommendations img{
+    border-radius: 5px 5px 0 0;
+    width:100%;
+    filter: brightness(70%);
+}
+
+.card-recommendations p{
+    padding: 10px 5px;
+    font-size: 18px;
+    text-align: center;
+}
+.card-recommendations h2{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    top:8%;
+    left: 35%;
+}
